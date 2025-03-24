@@ -7,7 +7,7 @@ Indication tags
 ---------------
 
 .. note::
-   Indication tags in CryDisGen’s parameter file supply the information of the input atomic region or define dislocation object being configured. There are **Four** indication tages in current version: **Region**, **Loop**, **Tetrahedron** and **Helix**. These tags specify either the input atom region (e.g., the crystal lattice) or the type of dislocation object to be introduced (e.g., a loop or tetrahedron), providing the structural context for subsequent counter and parameter tags. Each tag initiates a block of settings that CryDisGen uses to construct the corresponding atomic-scale feature.
+   Indication tags in CryDisGen’s parameter file supply the information of the input atomic region or define dislocation object being configured. There are **Four** indication tags in current version: **Region**, **Loop**, **Tetrahedron** and **Helix**. These tags specify either the input atom region (e.g., the crystal lattice) or the type of dislocation object to be introduced (e.g., a loop or tetrahedron), providing the structural context for subsequent counter and parameter tags. Each tag initiates a block of settings that CryDisGen uses to construct the corresponding atomic-scale feature.
 
 **Region:**
 
