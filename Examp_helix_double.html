@@ -7,7 +7,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>8.6. Double helical dislocations &mdash; CryDisGen beta documentation</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=92fd9be5" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="_static/custom.css?v=8451b935" />
 
@@ -114,7 +114,7 @@
 <blockquote>
 <div><p>Open terminal, run the following command:</p>
 </div></blockquote>
-<div class="highlight-Shell notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span>CryDisGen<span class="w"> </span>para_file<span class="w"> </span>bcc_reg.lmp
+<div class="highlight-Shell notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span>CryDisGen para_file bcc_reg.lmp
 </pre></div>
 </div>
 <hr class="docutils" />
@@ -125,23 +125,23 @@
 <div class="highlight-Shell notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="c1">#those started with &#39;#&#39; are comment lines</span>
 <span class="linenos"> 2</span><span class="c1">#crystal region</span>
 <span class="linenos"> 3</span>Region
-<span class="linenos"> 4</span>-x<span class="w">     </span><span class="m">1</span><span class="w"> </span>-1<span class="w">  </span><span class="m">0</span><span class="w">         </span><span class="c1"># lattice orientation in x-direction</span>
-<span class="linenos"> 5</span>-y<span class="w">     </span><span class="m">1</span><span class="w">  </span><span class="m">1</span><span class="w"> </span>-2<span class="w">         </span><span class="c1"># lattice orientation in y-direction</span>
-<span class="linenos"> 6</span>-z<span class="w">     </span><span class="m">1</span><span class="w">  </span><span class="m">1</span><span class="w">  </span><span class="m">1</span><span class="w">         </span><span class="c1"># lattice orientation in z-direction</span>
-<span class="linenos"> 7</span>-lat<span class="w">   </span><span class="m">2</span>.867<span class="w">           </span><span class="c1"># lattice constant of Fe</span>
-<span class="linenos"> 8</span>-pbc<span class="w">   </span><span class="m">1</span><span class="w">  </span><span class="m">1</span><span class="w">  </span><span class="m">1</span><span class="w">         </span><span class="c1"># boundary condition flag: &#39;1&#39;: pbc, &#39;0&#39;: non-pbc</span>
+<span class="linenos"> 4</span>-x     <span class="m">1</span> -1  <span class="m">0</span>         <span class="c1"># lattice orientation in x-direction</span>
+<span class="linenos"> 5</span>-y     <span class="m">1</span>  <span class="m">1</span> -2         <span class="c1"># lattice orientation in y-direction</span>
+<span class="linenos"> 6</span>-z     <span class="m">1</span>  <span class="m">1</span>  <span class="m">1</span>         <span class="c1"># lattice orientation in z-direction</span>
+<span class="linenos"> 7</span>-lat   <span class="m">2</span>.867           <span class="c1"># lattice constant of Fe</span>
+<span class="linenos"> 8</span>-pbc   <span class="m">1</span>  <span class="m">1</span>  <span class="m">1</span>         <span class="c1"># boundary condition flag: &#39;1&#39;: pbc, &#39;0&#39;: non-pbc</span>
 <span class="linenos"> 9</span>
 <span class="linenos">10</span>
-<span class="linenos">11</span>nHelix<span class="w"> </span><span class="m">2</span><span class="w">               </span><span class="c1"># total number of helices</span>
-<span class="linenos">12</span>Helix<span class="w">                  </span><span class="c1"># lable of helix</span>
-<span class="linenos">13</span>-bvh<span class="w">   </span><span class="m">1</span><span class="w">  </span><span class="m">1</span><span class="w">  </span><span class="m">1</span><span class="w">         </span><span class="c1"># Burgers vector of helix</span>
-<span class="linenos">14</span>-bsh<span class="w">   </span><span class="m">1</span>/2<span class="w">             </span><span class="c1"># scalar coefficient of Burger&#39;s vector, e.g., 1/2 in: 1/2&lt;110&gt;</span>
-<span class="linenos">15</span>-f<span class="w">     </span>mesh0.dat<span class="w">       </span><span class="c1"># mesh of helical surface</span>
+<span class="linenos">11</span>nHelix <span class="m">2</span>               <span class="c1"># total number of helices</span>
+<span class="linenos">12</span>Helix                  <span class="c1"># lable of helix</span>
+<span class="linenos">13</span>-bvh   <span class="m">1</span>  <span class="m">1</span>  <span class="m">1</span>         <span class="c1"># Burgers vector of helix</span>
+<span class="linenos">14</span>-bsh   <span class="m">1</span>/2             <span class="c1"># scalar coefficient of Burger&#39;s vector, e.g., 1/2 in: 1/2&lt;110&gt;</span>
+<span class="linenos">15</span>-f     mesh0.dat       <span class="c1"># mesh of helical surface</span>
 <span class="linenos">16</span>
 <span class="linenos">17</span>Helix
-<span class="linenos">18</span>-bvh<span class="w">   </span><span class="m">1</span><span class="w">  </span><span class="m">1</span><span class="w">  </span><span class="m">1</span>
-<span class="linenos">19</span>-bsh<span class="w">   </span><span class="m">1</span>/2
-<span class="linenos">20</span>-f<span class="w">     </span>mesh1.dat
+<span class="linenos">18</span>-bvh   <span class="m">1</span>  <span class="m">1</span>  <span class="m">1</span>
+<span class="linenos">19</span>-bsh   <span class="m">1</span>/2
+<span class="linenos">20</span>-f     mesh1.dat
 </pre></div>
 </div>
 </section>

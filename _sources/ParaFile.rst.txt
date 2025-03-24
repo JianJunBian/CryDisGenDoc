@@ -39,11 +39,11 @@ It is a structured ASCII text file designed to supply configuration details for 
    -ndisl  4            # segments of a discretized dislocation loop
 
    #dislocation helix
-   nHelix 1             # number of dislocation helix
+   nHelix  1            # number of dislocation helix
    Helix                # lable of a dislocation helix
-   -bvh   1  1  1       # Burgers vecotr of the helix
-   -bsh   1/2           # scalar coefficient of Burgers vector, e.g., 1/2 in: 1/2<110>
-   -f     mesh.dat      # mesh of the helical surface
+   -bvh    1  1  1      # Burgers vecotr of the helix
+   -bsh    1/2          # scalar coefficient of Burgers vector, e.g., 1/2 in: 1/2<110>
+   -f      mesh.dat     # mesh of the helical surface
 
 General Format
 --------------
