@@ -13,7 +13,7 @@ To create a stacking fault tetrahedron,
 
 **Step 1:**
 
-  Use :doc:`Tools/Fcc <Tools>` to creat an FCC single crystal sample: ``fcc_reg.lmp``
+  Use the tool in subdirectory :doc:`tools/Fcc <Tools>` to creat an FCC single crystal sample: ``fcc_reg.lmp``;
 
 **Step 2:**
 

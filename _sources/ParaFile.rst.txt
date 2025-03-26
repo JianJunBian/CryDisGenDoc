@@ -108,3 +108,4 @@ Key Characteristics
 Purpose and Usage
 -----------------
 This file serves as the parameter_file input for CryDisGen (as described in your earlier usage section), complementing the crystal_file by defining defects to insert into the crystal structure. It enables users to specify complex dislocation and tetrahedron configurations, leveraging CryDisGen’s ability to generate realistic atomic-scale models.
+
