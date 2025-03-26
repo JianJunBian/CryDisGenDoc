@@ -70,7 +70,7 @@ Parameter tags
 .. code-block:: CryDisGen
    :linenos:
 
-   #dislcoation
+   #dislocation loop
    nLoop   1             # number of dislocaito loops
    Loop                  # label of a dislocation section
    -bv     1  1  1       # orientation of Burgers vector
